@@ -34,7 +34,7 @@ button {
     margin-bottom: 20px;
 }
 
-a{
+a{ 
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
@@ -54,9 +54,24 @@ footer a {
     text-decoration: none;
     color: rgb(175, 175, 175);
 }
+footer a:hover {
+    color: rgb(226, 226, 226);
+}
 .divCopy{
     position: absolute;
     bottom: 0px;
     right: 0px;
     color: rgb(175, 175, 175);
 }
+.prompt-regular {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .prompt-extrabold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    font-style: normal;
+  }
